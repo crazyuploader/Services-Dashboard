@@ -57,11 +57,16 @@ colors:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Public Applications"
+  - name: "Applications on Server01"
     icon: "fas fa-cloud"
     items:
-      - name: "Smokeping"
-        tag: "app"
+      - name: "SmokePing"
+        # tag: "app"
         logo: "assets/tools/smokeping.png"
         url: "https://smokeping.devjugal.com"
+        target: "_blank"
+      - name: "Mongo Express"
+        # tag: "app"
+        logo: "assets/tools/mongo-express.png"
+        url: "http://10.66.66.1:8081"
         target: "_blank"
