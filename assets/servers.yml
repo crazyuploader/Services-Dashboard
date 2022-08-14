@@ -4,6 +4,14 @@ links:
     icon: "fas fa-home"
     url: "#"
 
+  - name: "Tools"
+    icon: "fas fa-tools"
+    url: "#tools"
+
+  - name: "Social"
+    icon: "fas fa-users"
+    url: "#social"
+
 services:
   - name: "Applications on Server01"
     icon: "fas fa-server"

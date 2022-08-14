@@ -1,0 +1,86 @@
+---
+links:
+  - name: "Home"
+    icon: "fas fa-home"
+    url: "#"
+
+  - name: "Servers"
+    icon: "fas fa-server"
+    url: "#servers"
+
+  - name: "Social"
+    icon: "fas fa-users"
+    url: "#social"
+
+services:
+  - name: "Check IP Address"
+    icon: "fas fa-map-marker-alt"
+    items:
+      - name: "IP Address"
+        icon: "fas fa-map-marker-alt"
+        url: "https://ip.devjugal.com"
+        tag: "online"
+        target: "_blank"
+
+      - name: "IP Address (JSON)"
+        icon: "fas fa-map-marker-alt"
+        url: "https://api.devjugal.com/ip"
+        tag: "online"
+        target: "_blank"
+
+      - name: "IP Address (IPv4)"
+        icon: "fas fa-map-marker-alt"
+        url: "https://ipv4.devjugal.com"
+        tag: "online"
+        target: "_blank"
+
+      - name: "IP Address (IPv6)"
+        icon: "fas fa-map-marker-alt"
+        url: "https://ipv6.devjugal.com"
+        tag: "online"
+        target: "_blank"
+
+  - name: "Tools"
+    icon: "fas fa-tools"
+    items:
+      - name: "MD5 Hash"
+        icon: "fas fa-key"
+        url: "https://tools.devjugal.com/md5.html"
+        tag: "online"
+        target: "_blank"
+
+      - name: "SHA1 Hash"
+        icon: "fas fa-key"
+        url: "https://tools.devjugal.com/sha1.html"
+        tag: "online"
+        target: "_blank"
+
+      - name: "SHA256 Hash"
+        icon: "fas fa-key"
+        url: "https://tools.devjugal.com/sha256.html"
+        tag: "online"
+        target: "_blank"
+
+      - name: "MD5 File Hash"
+        icon: "fas fa-key"
+        url: "https://tools.devjugal.com/md5_checksum.html"
+        tag: "online"
+        target: "_blank"
+
+      - name: "SHA1 File Hash"
+        icon: "fas fa-key"
+        url: "https://tools.devjugal.com/sha1_checksum.html"
+        tag: "online"
+        target: "_blank"
+
+      - name: "SHA256 File Hash"
+        icon: "fas fa-key"
+        url: "https://tools.devjugal.com/sha256_checksum.html"
+        tag: "online"
+        target: "_blank"
+
+      - name: "Syntax Highlight"
+        icon: "fas fa-code"
+        url: "https://tools.devjugal.com/syntax_highlight.html"
+        tag: "online"
+        target: "_blank"

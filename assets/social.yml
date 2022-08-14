@@ -1,0 +1,64 @@
+---
+links:
+  - name: "Home"
+    icon: "fas fa-home"
+    url: "#"
+
+  - name: "Servers"
+    icon: "fas fa-server"
+    url: "#servers"
+
+  - name: "Tools"
+    icon: "fas fa-tools"
+    url: "#tools"
+
+services:
+  - name: "Social Platforms"
+    icon: "fas fa-users"
+    items:
+      - name: "Email"
+        icon: "fas fa-envelope"
+        url: "mailto:me@devjugal.com"
+        tag: "online"
+
+      - name: "GitHub"
+        icon: "fab fa-github"
+        url: "https://github.com/crazyuploader"
+        tag: "online"
+        target: "_blank"
+
+      - name: "GitLab"
+        icon: "fab fa-gitlab"
+        url: "https://gitlab.com/crazyuploader"
+        tag: "online"
+        target: "_blank"
+
+      - name: "Docker Hub"
+        icon: "fab fa-docker"
+        url: "https://hub.docker.com/u/crazyuploader"
+        tag: "online"
+        target: "_blank"
+
+      - name: "LinkedIn"
+        icon: "fab fa-linkedin"
+        url: "https://www.linkedin.com/in/crazyuploader/"
+        tag: "online"
+        target: "_blank"
+
+      - name: "Twitter"
+        icon: "fab fa-twitter"
+        url: "https://twitter.com/jugalkishore839"
+        tag: "online"
+        target: "_blank"
+
+      - name: "Reddit"
+        icon: "fab fa-reddit"
+        url: "https://www.reddit.com/user/crazyuploader"
+        tag: "online"
+        target: "_blank"
+
+      - name: "Telegram"
+        icon: "fab fa-telegram"
+        url: "https://t.me/crazyuploader"
+        tag: "online"
+        target: "_blank"
