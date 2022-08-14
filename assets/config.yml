@@ -85,16 +85,28 @@ services:
         target: "_blank"
 
   - name: "Applications on Server01"
-    icon: "fas fa-cloud"
+    icon: "fas fa-server"
     items:
-      - name: "SmokePing"
+      - name: "API"
         tag: "self-hosted"
-        logo: "assets/tools/smokeping.png"
+        icon: "fas fa-code"
+        url: "https://api.devjugal.com"
+        target: "_blank"
+
+      - name: "Speedtest"
+        tag: "self-hosted"
+        icon: "fas fa-tachometer-alt"
+        url: "https://speedtest.devjugal.com"
+        target: "_blank"
+
+      - name: "Smokeping"
+        tag: "self-hosted"
+        icon: "fas fa-chart-line"
         url: "https://smokeping.devjugal.com"
         target: "_blank"
 
       - name: "Mongo Express"
         tag: "self-hosted"
-        logo: "assets/tools/mongo-express-logo.png"
-        url: "http://10.66.66.1:8081"
+        icon: "fas fa-database"
+        url: "https://mongo.devjugal.com"
         target: "_blank"
