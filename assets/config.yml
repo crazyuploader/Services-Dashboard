@@ -66,6 +66,12 @@ services:
         tag: "online"
         target: "_blank"
 
+      - name: "TIL"
+        icon: "fas fa-book"
+        url: "https://til.devjugal.com"
+        tag: "online"
+        target: "_blank"
+
       - name: "Blog"
         icon: "fas fa-blog"
         url: "https://blog.devjugal.com"
@@ -79,8 +85,73 @@ services:
         target: "_blank"
 
       - name: "Social"
-        icon: "fab fa-twitter"
+        icon: "fas fa-share-alt"
         url: "https://social.devjugal.com"
+        tag: "online"
+        target: "_blank"
+
+  # - name: "Social"
+  #   icon: "fas fa-users"
+  #   items:
+  #     - name: "Email"
+  #       icon: "fas fa-envelope"
+  #       url: "mailto:me@devjugal.com"
+  #       tag: "online"
+
+  #     - name: "GitHub"
+  #       icon: "fab fa-github"
+  #       url: "https://github.com/crazyuploader"
+  #       tag: "online"
+  #       target: "_blank"
+
+  #     - name: "GitLab"
+  #       icon: "fab fa-gitlab"
+  #       url: "https://gitlab.com/crazyuploader"
+  #       tag: "online"
+  #       target: "_blank"
+
+  #     - name: "Docker Hub"
+  #       icon: "fab fa-docker"
+  #       url: "https://hub.docker.com/u/crazyuploader"
+  #       tag: "online"
+  #       target: "_blank"
+
+  #     - name: "LinkedIn"
+  #       icon: "fab fa-linkedin"
+  #       url: "https://www.linkedin.com/in/crazyuploader/"
+  #       tag: "online"
+  #       target: "_blank"
+
+  #     - name: "Twitter"
+  #       icon: "fab fa-twitter"
+  #       url: "https://twitter.com/jugalkishore839"
+  #       tag: "online"
+  #       target: "_blank"
+
+  #     - name: "Reddit"
+  #       icon: "fab fa-reddit"
+  #       url: "https://www.reddit.com/user/crazyuploader"
+  #       tag: "online"
+  #       target: "_blank"
+
+  #     - name: "Telegram"
+  #       icon: "fab fa-telegram"
+  #       url: "https://t.me/crazyuploader"
+  #       tag: "online"
+  #       target: "_blank"
+
+  - name: "Uptime"
+    icon: "fas fa-clock"
+    items:
+      - name: "Updown"
+        icon: "fas fa-up-down"
+        url: "https://status.devjugal.com"
+        tag: "online"
+        target: "_blank"
+
+      - name: "UptimeRobot"
+        icon: "fas fa-robot"
+        url: "https://stats.devjugal.com"
         tag: "online"
         target: "_blank"
 
@@ -109,4 +180,28 @@ services:
         tag: "self-hosted"
         icon: "fas fa-database"
         url: "https://mongo.devjugal.com"
+        target: "_blank"
+
+      - name: "VS Code"
+        tag: "self-hosted"
+        icon: "fas fa-terminal"
+        url: "https://code.devjugal.com"
+        target: "_blank"
+
+      - name: "IP Address"
+        tag: "self-hosted"
+        icon: "fas fa-network-wired"
+        url: "https://ip.devjugal.com"
+        target: "_blank"
+
+      - name: "Tools"
+        tag: "self-hosted"
+        icon: "fas fa-tools"
+        url: "https://tools.devjugal.com"
+        target: "_blank"
+
+      - name: "Uptime"
+        tag: "self-hosted"
+        icon: "fas fa-clock"
+        url: "https://uptime.devjugal.com"
         target: "_blank"
