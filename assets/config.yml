@@ -47,26 +47,54 @@ colors:
 #   - name: "Wiki"
 #     icon: "fas fa-book"
 #     url: "https://www.wikipedia.org/"
-  # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
-  # see url field and assets/additional-page.yml.dist used in this example:
-  #- name: "another page!"
-  #  icon: "fas fa-file-alt"
-  #  url: "#additional-page" 
+# this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
+# see url field and assets/additional-page.yml.dist used in this example:
+#- name: "another page!"
+#  icon: "fas fa-file-alt"
+#  url: "#additional-page"
 
 # Services
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
+  - name: "Links"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Website"
+        icon: "fas fa-globe"
+        url: "https://devjugal.com"
+        tag: "online"
+        target: "_blank"
+
+      - name: "Blog"
+        icon: "fas fa-blog"
+        url: "https://blog.devjugal.com"
+        tag: "online"
+        target: "_blank"
+
+      - name: "Resume"
+        icon: "fas fa-file"
+        url: "https://resume.devjugal.com"
+        tag: "online"
+        target: "_blank"
+
+      - name: "Social"
+        icon: "fab fa-twitter"
+        url: "https://social.devjugal.com"
+        tag: "online"
+        target: "_blank"
+
   - name: "Applications on Server01"
     icon: "fas fa-cloud"
     items:
       - name: "SmokePing"
-        # tag: "app"
+        tag: "self-hosted"
         logo: "assets/tools/smokeping.png"
         url: "https://smokeping.devjugal.com"
         target: "_blank"
+
       - name: "Mongo Express"
-        # tag: "app"
-        logo: "assets/tools/mongo-express.png"
+        tag: "self-hosted"
+        logo: "assets/tools/mongo-express-logo.png"
         url: "http://10.66.66.1:8081"
         target: "_blank"
