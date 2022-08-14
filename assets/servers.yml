@@ -37,7 +37,7 @@ services:
       - name: "Mongo Express"
         tag: "self-hosted"
         icon: "fas fa-database"
-        url: "https://mongo.devjugal.com"
+        url: "http://10.66.66.1:8081"
         target: "_blank"
 
       - name: "VS Code"
